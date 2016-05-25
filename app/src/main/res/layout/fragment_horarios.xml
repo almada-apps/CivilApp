@@ -1,0 +1,68 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.almadaapps.civilapp.fragments.HorariosFragment">
+
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tl_top_horarios_frag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary">
+
+    </android.support.design.widget.TabLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_container_rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tl_top_horarios_frag"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <!--<android.support.v4.view.ViewPager
+            android:id="@+id/vp_horarios_frag"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/rv_horarios_aux"
+                android:scrollbars="vertical"
+                android:layout_gravity="center">
+
+            </android.support.v7.widget.RecyclerView>
+        </android.support.v4.view.ViewPager>-->
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_horarios"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/tl_bot_horarios_frag"
+            android:layout_gravity="top"
+            android:isScrollContainer="true"
+            android:scrollbars="vertical"/>
+        <!--android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="5dp"-->
+
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tl_bot_horarios_frag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            android:background="@color/colorPrimary"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Civil App</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="lipsum">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+    <string name="openDrawer">Abrir Drawer</string>
+    <string name="closeDrawer">Fechar Drawer</string>
+    <string name="menu_horarios">Horários</string>
+    <string name="menu_ementas">Ementas</string>
+    <string name="menu_horarios_pessoal">Horário Pessoal</string>
+    <string name="menu_pessoal">Pessoal</string>
+    <string name="menu_settings">Configurações</string>
+    <string name="configura_es_e_suporte">Configurações e Suporte</string>
+    <string name="profileimage">ProfileImage</string>
+    <string name="about">Sobre</string>
+    <string name="logoec">LogoEC</string>
+    <string name="logoifma">logoIFMA</string>
+    <string name="text_logo_ifma1">INSTITUTO FEDERAL</string>
+    <string name="text_logo_ifma2">MARANHÃO</string>
+    <string name="text_logo_ifma3">Campus São Luís - Monte Castelo</string>
+    <string name="text_logo_ec">Engenharia Civil</string>
+    <string name="sistema_acad">SISTEMA ACADÊMICO</string>
+    <string name="ifma">IFMA</string>
+    <string name="biblioteca">BIBLIOTECA IFMA</string>
+    <string name="links">Links auxiliares:</string>
+    <string name="suap">SUAP</string>
+    <string name="main_page">Página Inicial</string>
+    <string name="monografias">Monografias</string>
+    <string name="pedagogico">Projeto Pedagógico</string>
+    <string name="order">Exibir por:</string>
+</resources>

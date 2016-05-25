@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/rl_item_rv_horarios">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="16:45\n17:34"
+        android:id="@+id/rv_item_horas"
+        android:singleLine="false"
+        android:textAllCaps="true"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Libras"
+        android:id="@+id/rv_item_disciplina"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/rv_item_horas"
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp"
+        android:layout_marginStart="30dp"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:gravity="center|left"
+        android:textStyle="bold"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/view">
+
+    </View>
+</RelativeLayout>

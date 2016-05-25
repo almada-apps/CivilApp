@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/rl_monografias_container_list"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp">
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="0.9dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tv_monografias_item"
+        android:background="#444"
+        android:paddingBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_monografias_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_vertical"
+        android:paddingBottom="8dp"
+        android:text="ESTUDO COMPARATIVO ENTRE PROJETO DE RADIER EM CONCRETO ARMADO E CONCRETO PROTENDIDO, CONSIDERANDO INTERAÇÃO SOLO-ESTRUTURA"
+        android:textColor="#6b6b6b"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText"/>
+
+</RelativeLayout>

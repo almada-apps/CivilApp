@@ -1,0 +1,13 @@
+<!--Layout que servirá de base para o spinner-->
+<TextView
+    android:id="@android:id/text1"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center|left"
+    android:layout_margin="0dp"
+    android:textStyle="normal"
+    android:textAllCaps="false"
+    android:textSize="15sp"
+    android:text="1º"
+    android:background="@android:color/transparent"/>

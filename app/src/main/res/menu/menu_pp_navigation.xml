@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:ignore="HardcodedText">
+    <item android:title="Projeto Pedagógico"
+        >
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/pp_i2"
+                    android:checked="false"
+                    android:title="Reitoria, Direção e Coordernação"/>
+                <item
+                    android:id="@+id/pp_i3"
+                    android:checked="false"
+                    android:title="Elaboração do Proj. de Implantação"
+                    />
+                <item
+                    android:id="@+id/pp_i4"
+                    android:checked="false"
+                    android:title="Reestruturação e Atualização"/>
+
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Sumário">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/pp_c1"
+                    android:checked="false"
+                    android:title="Apresentação"/>
+                <item
+                    android:id="@+id/pp_c2"
+                    android:checked="false"
+                    android:title="Contex. Sócio-Econômico"/>
+                <item
+                    android:id="@+id/pp_c3"
+                    android:checked="false"
+                    android:title="Justificativa"/>
+                <item
+                    android:id="@+id/pp_c4"
+                    android:checked="false"
+                    android:title="Objetivos"/>
+                <item
+                    android:id="@+id/pp_c5"
+                    android:checked="false"
+                    android:title="Perfil Profissional"/>
+                <item
+                    android:id="@+id/pp_c6"
+                    android:checked="false"
+                    android:title="Competências Profissionais"/>
+                <item
+                    android:id="@+id/pp_c7"
+                    android:checked="false"
+                    android:title="Funcionamento do Curso"/>
+                <item
+                    android:id="@+id/pp_c8"
+                    android:checked="false"
+                    android:title="Organização Curricular"/>
+                <item
+                    android:id="@+id/pp_c9"
+                    android:checked="false"
+                    android:title="Cargas Horárias dos Núcleos"/>
+                <item
+                    android:id="@+id/pp_c10"
+                    android:checked="false"
+                    android:title="Metodologia de Ensino"/>
+                <item
+                    android:id="@+id/pp_c11"
+                    android:checked="false"
+                    android:title="Sistemas de Avaliação"/>
+                <item
+                    android:id="@+id/pp_c12"
+                    android:checked="false"
+                    android:title="Estágio Supervisionado"/>
+                <item
+                    android:id="@+id/pp_c13"
+                    android:checked="false"
+                    android:title="Pesquisa e Iniciação Científica"/>
+                <item
+                    android:id="@+id/pp_c14"
+                    android:checked="false"
+                    android:title="Monitoria"/>
+                <item
+                    android:id="@+id/pp_c15"
+                    android:checked="false"
+                    android:title="Monografia"/>
+                <item
+                    android:id="@+id/pp_c16"
+                    android:checked="false"
+                    android:title="Atividades Complementares"/>
+                <item
+                    android:id="@+id/pp_c17"
+                    android:checked="false"
+                    android:title="Programas de Apoio"/>
+                <item
+                    android:id="@+id/pp_c18"
+                    android:checked="false"
+                    android:title="Disciplinas Eletivas"/>
+                <item
+                    android:id="@+id/pp_c19"
+                    android:checked="false"
+                    android:title="Instalações Físicas"/>
+                <item
+                    android:id="@+id/pp_c20"
+                    android:checked="false"
+                    android:title="Corpo Docente"/>
+                <item
+                    android:id="@+id/pp_c21"
+                    android:checked="false"
+                    android:title="Núcleo Docente Estruturante"/>
+                <item
+                    android:id="@+id/pp_c22"
+                    android:checked="false"
+                    android:title="Corpo de Apoio"/>
+                <item
+                    android:id="@+id/pp_c23"
+                    android:checked="false"
+                    android:title="Referências Bibliográficas"/>
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Anexo I">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/pp_a1"
+                    android:checked="false"
+                    android:title="Fluxograma do Curso"/>
+            </group>
+        </menu>
+    </item>
+
+    <!--<item android:title="Anexo II">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/pp_a2_1"
+                    android:checked="false"
+                    android:title="Artigo 1º"/>
+                <item
+                    android:id="@+id/pp_a2_2"
+                    android:checked="false"
+                    android:title="Artigo 2º"/>
+                <item
+                    android:id="@+id/pp_a2_3"
+                    android:checked="false"
+                    android:title="Artigo 3º"/>
+                <item
+                    android:id="@+id/pp_a2_4"
+                    android:checked="false"
+                    android:title="Artigo 4º"/>
+                <item
+                    android:id="@+id/pp_a2_5"
+                    android:checked="false"
+                    android:title="Artigo 5º"/>
+                <item
+                    android:id="@+id/pp_a2_6"
+                    android:checked="false"
+                    android:title="Artigo 6º"/>
+                <item
+                    android:id="@+id/pp_a2_7"
+                    android:checked="false"
+                    android:title="Artigo 7º"/>
+                <item
+                    android:id="@+id/pp_a2_8"
+                    android:checked="false"
+                    android:title="Artigo 8º"/>
+                <item
+                    android:id="@+id/pp_a2_9"
+                    android:checked="false"
+                    android:title="Artigo 9º"/>
+                <item
+                    android:id="@+id/pp_a2_10"
+                    android:checked="false"
+                    android:title="Artigo 10º"/>
+                <item
+                    android:id="@+id/pp_a2_11"
+                    android:checked="false"
+                    android:title="Informações Adicionais"/>
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Anexo III">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/pp_a3_1"
+                    android:checked="false"
+                    android:title="Apresentação"/>
+                <item
+                    android:id="@+id/pp_a3_2"
+                    android:checked="false"
+                    android:title="Artigo 1º"/>
+                <item
+                    android:id="@+id/pp_a3_3"
+                    android:checked="false"
+                    android:title="Artigo 2º"/>
+                <item
+                    android:id="@+id/pp_a3_4"
+                    android:checked="false"
+                    android:title="Artigo 3º"/>
+                <item
+                    android:id="@+id/pp_a3_5"
+                    android:checked="false"
+                    android:title="Artigo 4º"/>
+                <item
+                    android:id="@+id/pp_a3_6"
+                    android:checked="false"
+                    android:title="Artigo 5º"/>
+                <item
+                    android:id="@+id/pp_a3_7"
+                    android:checked="false"
+                    android:title="Artigo 6º"/>
+                <item
+                    android:id="@+id/pp_a3_8"
+                    android:checked="false"
+                    android:title="Artigo 7º"/>
+                <item
+                    android:id="@+id/pp_a3_9"
+                    android:checked="false"
+                    android:title="Artigo 8º"/>
+                <item
+                    android:id="@+id/pp_a3_10"
+                    android:checked="false"
+                    android:title="Artigo 9º"/>
+                <item
+                    android:id="@+id/pp_a3_11"
+                    android:checked="false"
+                    android:title="Artigo 10º"/>
+                <item
+                    android:id="@+id/pp_a3_12"
+                    android:checked="false"
+                    android:title="Artigo 11º"/>
+                <item
+                    android:id="@+id/pp_a3_13"
+                    android:checked="false"
+                    android:title="Artigo 12º"/>
+                <item
+                    android:id="@+id/pp_a3_14"
+                    android:checked="false"
+                    android:title="Artigo 13º"/>
+                <item
+                    android:id="@+id/pp_a3_15"
+                    android:checked="false"
+                    android:title="Informações Adicionais"/>
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Anexo IV">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/pp_a4_1"
+                    android:checked="false"
+                    android:title="Formalidades"/>
+                <item
+                    android:id="@+id/pp_a4_2"
+                    android:checked="false"
+                    android:title="Objetivos"/>
+                <item
+                    android:id="@+id/pp_a4_3"
+                    android:checked="false"
+                    android:title="Concepção"/>
+                <item
+                    android:id="@+id/pp_a4_4"
+                    android:checked="false"
+                    android:title="Elaboração de Monografia"/>
+                <item
+                    android:id="@+id/pp_a4_5"
+                    android:checked="false"
+                    android:title="Informações Adicionais"/>
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Anexo V">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/pp_a5_1"
+                    android:checked="false"
+                    android:title="Apresentação"/>
+                <item
+                    android:id="@+id/pp_a5_2"
+                    android:checked="false"
+                    android:title="Capítulo I"/>
+                <item
+                    android:id="@+id/pp_a5_3"
+                    android:checked="false"
+                    android:title="Capítulo II"/>
+                <item
+                    android:id="@+id/pp_a5_4"
+                    android:checked="false"
+                    android:title="Capítulo III"/>
+                <item
+                    android:id="@+id/pp_a5_5"
+                    android:checked="false"
+                    android:title="Seção I"/>
+                <item
+                    android:id="@+id/pp_a5_6"
+                    android:checked="false"
+                    android:title="Seção II"/>
+                <item
+                    android:id="@+id/pp_a5_7"
+                    android:checked="false"
+                    android:title="Capítulo IV"/>
+                <item
+                    android:id="@+id/pp_a5_8"
+                    android:checked="false"
+                    android:title="Capítulo V"/>
+                <item
+                    android:id="@+id/pp_a5_9"
+                    android:checked="false"
+                    android:title="Informações Adicionais"/>
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Anexo VI">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/pp_a6_1"
+                    android:checked="false"
+                    android:title="Seção I"/>
+                <item
+                    android:id="@+id/pp_a6_2"
+                    android:checked="false"
+                    android:title="Seção II"/>
+                <item
+                    android:id="@+id/pp_a6_3"
+                    android:checked="false"
+                    android:title="Seção III"/>
+                <item
+                    android:id="@+id/pp_a6_4"
+                    android:checked="false"
+                    android:title="Seção IV"/>
+                <item
+                    android:id="@+id/pp_a6_5"
+                    android:checked="false"
+                    android:title="Seção V"/>
+                <item
+                    android:id="@+id/pp_a6_6"
+                    android:checked="false"
+                    android:title="Seção VI"/>
+                <item
+                    android:id="@+id/pp_a6_7"
+                    android:checked="false"
+                    android:title="Informações Adicionais"/>
+            </group>
+        </menu>
+    </item>
+-->
+</menu>

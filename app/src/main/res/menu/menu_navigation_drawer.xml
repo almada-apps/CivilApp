@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/pagina_inicial"
+            android:checked="false"
+            android:icon="@drawable/ic_homepage"
+            android:title="@string/main_page"/>
+
+        <item
+            android:id="@+id/horarios"
+            android:checked="false"
+            android:icon="@drawable/ic_horario"
+            android:title="@string/menu_horarios"/>
+
+        <item
+            android:id="@+id/ementas"
+            android:checked="false"
+            android:icon="@drawable/ic_ementa"
+            android:title="@string/menu_ementas"/>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:title="Extras">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/proj_pedagogico"
+                        android:checked="false"
+                        android:icon="@drawable/ic_projeto_pedagogico"
+                        android:title="@string/pedagogico"/>
+
+                    <item
+                        android:id="@+id/monografias"
+                        android:checked="false"
+                        android:icon="@drawable/ic_monografia"
+                        android:title="@string/monografias"/>
+                </group>
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:title="Informações">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/sobre"
+                        android:checked="false"
+                        android:title="@string/about"/>
+                </group>
+            </menu>
+        </item>
+    </group>
+</menu>

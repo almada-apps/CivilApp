@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="horas">
+        <item>13:10\n14:00</item>
+        <item>14:00\n14:49</item>
+        <item>14:50\n15:39</item>
+        <item>15:55\n16:44</item>
+        <item>16:45\n17:34</item>
+        <item>17:35\n18:25</item>
+        <item>18:30\n19:19</item>
+        <item>19:20\n20:09</item>
+        <item>20:10\n20:59</item>
+        <item>21:00\n21:49</item>
+        <item>21:50\n22:40</item>
+    </string-array>
+
+    <string-array name="periodos_spinner">
+        <item>1º</item>
+    </string-array>
+
+    <string-array name="disciplinas_spinner">
+        <item>Física I</item>
+    </string-array>
+
+    <string-array name="periodos">
+        <item>1º</item>
+        <item>2º</item>
+        <item>3º</item>
+        <item>4º</item>
+        <item>5º</item>
+        <item>6º</item>
+        <item>7º</item>
+        <item>8º</item>
+        <item>9º</item>
+        <item>10º</item>
+    </string-array>
+
+    <string-array name="dias">
+        <item>Segunda</item>
+        <item>Terça</item>
+        <item>Quarta</item>
+        <item>Quinta</item>
+        <item>Sexta</item>
+        <item>Sábado</item>
+    </string-array>
+
+    <string-array name="periodos_1">
+        <item>1º Período</item>
+        <item>3º Período</item>
+        <item>5º Período</item>
+        <item>7º Período</item>
+        <item>9º Período</item>
+    </string-array>
+
+    <string-array name="_1">
+        <item>Cálculo Diferencial e Integral I</item>
+        <item>Cálculo Vetorial e Geometria Analítica</item>
+        <item>Física I</item>
+        <item>Geometria Descritiva</item>
+        <item>Introdução à Engenharia Civil</item>
+        <item>Introdução à Programação</item>
+        <item>Química Geral</item>
+    </string-array>
+
+    <string-array name="_2">
+        <item>Álgebra Linear Aplicada</item>
+        <item>Cálculo Diferencial e Integral II</item>
+        <item>Ciência e Tecnologia dos Materiais</item>
+        <item>Expressão Gráfica</item>
+        <item>Física II</item>
+        <item>Língua Portuguesa</item>
+        <item>Mecânica Geral</item>
+        <item>Metodologia da Pesquisa Científica</item>
+        <item>Psicologia Aplicada</item>
+    </string-array>
+
+    <string-array name="_3">
+        <item>Arquitetura</item>
+        <item>Cálculo Diferencial e Integral III</item>
+        <item>Física III</item>
+        <item>Geologia Aplicada</item>
+        <item>Língua Inglesa</item>
+        <item>Probabilidade e Estatística</item>
+        <item>Resistência dos Materiais I</item>
+        <item>Topografia Aplicada I</item>
+    </string-array>
+
+    <string-array name="_4">
+        <item>Eletrotécnica Geral</item>
+        <item>Equações Diferenciais</item>
+        <item>Fenômeno dos Transportes</item>
+        <item>Materiais de Construção I</item>
+        <item>Mecânica dos Solos I</item>
+        <item>Resistência dos Materiais II</item>
+        <item>Topografia II</item>
+    </string-array>
+
+    <string-array name="_5">
+        <item>Análise de Estruturas I</item>
+        <item>Cálculo Numérico</item>
+        <item>Hidráulica Aplicada</item>
+        <item>Materiais de Construção II</item>
+        <item>Mecânica dos Solos II</item>
+    </string-array>
+
+    <string-array name="_6">
+        <item>Análise de Estruturas II</item>
+        <item>Desenho assistido por computador</item>
+        <item>Economia Aplicada</item>
+        <item>Instalações Elétricas e Telefônicas</item>
+        <item>Instalações Hidráulicas e Sanitárias</item>
+        <item>Introdução à Engenharia Ambiental</item>
+        <item>Transportes I</item>
+    </string-array>
+
+    <string-array name="_7">
+        <item>Concreto Armado I</item>
+        <item>Direito e Legislação na Engenharia</item>
+        <item>Planejamento e Gerenciamento de Obras</item>
+        <item>Introdução ao Método dos Elementos Finitos</item>
+        <item>Segurança no Trabalho</item>
+        <item>Transportes II</item>
+        <item>LIBRAS</item>
+        <item>Matemática Aplicada à Engenharia Civil</item>
+        <item>Introdução à Teoria da Elasticidade</item>
+        <item>Métodos Numéricos Aplicados às Estruturas</item>
+        <item>Estatística Aplicada à Engenharia Civil </item>
+    </string-array>
+
+    <string-array name="_8">
+        <item>Administração</item>
+        <item>Alvenaria Estrutural</item>
+        <item>Concreto Armado II</item>
+        <item>Estruturas de Madeiras</item>
+        <item>Saneamento</item>
+        <item>Tecnologia das Construções I</item>
+        <item>Transportes III</item>
+        <item>Planejamento Urbano</item>
+        <item>Sistemas Computacionais na Engenharia Civil</item>
+        <item>Introdução à Teoria das Placas e das Placas</item>
+        <item>Concreto Protendido</item>
+    </string-array>
+
+    <string-array name="_9">
+        <item>Estruturas Metálicas</item>
+        <item>Ética, Cidadania E Política Inclusiva</item>
+        <item>Fundações</item>
+        <item>Hidrologia Aplicada</item>
+        <item>Monografia I</item>
+        <item>Pontes</item>
+        <item>Tecnologia das Construções II</item>
+        <item>Transportes IV</item>
+    </string-array>
+
+    <string-array name="_10">
+        <item>Engenharia de Avaliações Imobiliárias</item>
+        <item>Infraestrutura de Aeroportos, Portos e Vias Navegáveis</item>
+        <item>Monografia II</item>
+    </string-array>
+
+    <string-array name="all_chairs">
+        <!--1-->
+        <item>Cálculo Diferencial e Integral I</item>
+        <item>Cálculo Vetorial e Geometria Analítica</item>
+        <item>Física I</item>
+        <item>Geometria Descritiva</item>
+        <item>Introdução à Engenharia Civil</item>
+        <item>Introdução à Programação</item>
+        <item>Química Geral</item>
+
+        <!--2-->
+        <item>Álgebra Linear Aplicada</item>
+        <item>Cálculo Diferencial e Integral II</item>
+        <item>Ciência e Tecnologia dos Materiais</item>
+        <item>Expressão Gráfica</item>
+        <item>Física II</item>
+        <item>Língua Portuguesa</item>
+        <item>Mecânica Geral</item>
+        <item>Metodologia da Pesquisa Científica</item>
+        <item>Psicologia Aplicada</item>
+
+        <!--3-->
+        <item>Arquitetura</item>
+        <item>Cálculo Diferencial e Integral III</item>
+        <item>Física III</item>
+        <item>Geologia Aplicada</item>
+        <item>Língua Inglesa</item>
+        <item>Probabilidade e Estatística</item>
+        <item>Resistência dos Materiais I</item>
+        <item>Topografia Aplicada I</item>
+
+
+        <!--4-->
+        <item>Eletrotécnica Geral</item>
+        <item>Equações Diferenciais</item>
+        <item>Fenômeno dos Transportes</item>
+        <item>Materiais de Construção I</item>
+        <item>Mecânica dos Solos I</item>
+        <item>Resistência dos Materiais II</item>
+        <item>Topografia II</item>
+
+
+        <!--5-->
+        <item>Análise de Estruturas I</item>
+        <item>Cálculo Numérico</item>
+        <item>Hidráulica Aplicada</item>
+        <item>Materiais de Construção II</item>
+        <item>Mecânica dos Solos II</item>
+
+
+        <!--6-->
+        <item>Análise de Estruturas II</item>
+        <item>Desenho assistido por computador</item>
+        <item>Economia Aplicada</item>
+        <item>Instalações Elétricas e Telefônicas</item>
+        <item>Instalações Hidráulicas e Sanitárias</item>
+        <item>Introdução à Engenharia Ambiental</item>
+        <item>Transportes I</item>
+
+
+        <!--7-->
+        <item>Concreto Armado I</item>
+        <item>Direito e Legislação na Engenharia</item>
+        <item>Planejamento e Gerenciamento de Obras</item>
+        <item>Introdução ao Método dos Elementos Finitos</item>
+        <item>Segurança no Trabalho</item>
+        <item>Transportes II</item>
+
+
+        <!--8-->
+        <item>Administração</item>
+        <item>Alvenaria Estrutural</item>
+        <item>Concreto Armado II</item>
+        <item>Estruturas de Madeiras</item>
+        <item>Saneamento</item>
+        <item>Tecnologia das Construções I</item>
+        <item>Transportes III</item>
+
+
+        <!--9-->
+        <item>Estruturas Metálicas</item>
+        <item>Ética, Cidadania E Política Inclusiva</item>
+        <item>Fundações</item>
+        <item>Hidrologia Aplicada</item>
+        <item>Monografia I</item>
+        <item>Pontes</item>
+        <item>Tecnologia das Construções II</item>
+        <item>Transportes IV</item>
+
+
+        <!--10-->
+        <item>Engenharia de Avaliações Imobiliárias</item>
+        <item>Infraestrutura de Aeroportos, Portos e Vias Navegáveis</item>
+        <item>Monografia II</item>
+
+        <!--Eletivas-->
+        <item>Matemática Aplicada à Engenharia Civil</item>
+        <item>Estatística Aplicada à Engenharia Civil </item>
+        <item>Introdução à Teoria da Elasticidade</item>
+        <item>Introdução à Teoria das Placas e das Placas</item>
+        <item>Métodos Numéricos Aplicados às Estruturas</item>
+        <item>Concreto Protendido</item>
+        <item>Sistemas Computacionais na Engenharia Civil</item>
+        <item>LIBRAS</item>
+        <item>Planejamento Urbano</item>
+
+    </string-array>
+
+    <string-array name="all_chairs_ordened">
+        <item>Administração</item>
+        <item>Álgebra Linear Aplicada</item>
+        <item>Alvenaria Estrutural</item>
+        <item>Análise de Estruturas I</item>
+        <item>Análise de Estruturas II</item>
+        <item>Arquitetura</item>
+        <item>Cálculo Diferencial e Integral I</item>
+        <item>Cálculo Diferencial e Integral II</item>
+        <item>Cálculo Diferencial e Integral III</item>
+        <item>Cálculo Numérico</item>
+        <item>Cálculo Vetorial e Geometria Analítica</item>
+        <item>Ciência e Tecnologia dos Materiais</item>
+        <item>Concreto Armado I</item>
+        <item>Concreto Armado II</item>
+        <item>Desenho assistido por computador</item>
+        <item>Direito e Legislação na Engenharia</item>
+        <item>Economia Aplicada</item>
+        <item>Eletrotécnica Geral</item>
+        <item>Engenharia de Avaliações Imobiliárias</item>
+        <item>Equações Diferenciais</item>
+        <item>Estruturas de Madeiras</item>
+        <item>Estruturas Metálicas</item>
+        <item>Ética, Cidadania E Política Inclusiva</item>
+        <item>Expressão Gráfica</item>
+        <item>Fenômeno dos Transportes</item>
+        <item>Física I</item>
+        <item>Física II</item>
+        <item>Física III</item>
+        <item>Fundações</item>
+        <item>Geologia Aplicada</item>
+        <item>Geometria Descritiva</item>
+        <item>Hidráulica Aplicada</item>
+        <item>Hidrologia Aplicada</item>
+        <item>Infraestrutura de Aeroportos, Portos e Vias Navegáveis</item>
+        <item>Instalações Elétricas e Telefônicas</item>
+        <item>Instalações Hidráulicas e Sanitárias</item>
+        <item>Introdução à Engenharia Ambiental</item>
+        <item>Introdução à Engenharia Civil</item>
+        <item>Introdução à Programação</item>
+        <item>Introdução ao Método dos Elementos Finitos</item>
+        <item>Língua Inglesa</item>
+        <item>Língua Portuguesa</item>
+        <item>Materiais de Construção I</item>
+        <item>Materiais de Construção II</item>
+        <item>Mecânica Geral</item>
+        <item>Mecânica dos Solos I</item>
+        <item>Mecânica dos Solos II</item>
+        <item>Metodologia da Pesquisa Científica</item>
+        <item>Monografia I</item>
+        <item>Monografia II</item>
+        <item>Planejamento e Gerenciamento de Obras</item>
+        <item>Pontes</item>
+        <item>Probabilidade e Estatística</item>
+        <item>Psicologia Aplicada</item>
+        <item>Química Geral</item>
+        <item>Resistência dos Materiais I</item>
+        <item>Resistência dos Materiais II</item>
+        <item>Segurança no Trabalho</item>
+        <item>Saneamento</item>
+        <item>Tecnologia das Construções I</item>
+        <item>Tecnologia das Construções II</item>
+        <item>Topografia Aplicada I</item>
+        <item>Topografia Aplicada II</item>
+        <item>Transportes I</item>
+        <item>Transportes II</item>
+        <item>Transportes III</item>
+        <item>Transportes IV</item>
+        <item>DISCIPLINA ELETIVA</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="orderBy">
+        <item>Autor</item>
+        <item>Título</item>
+    </string-array>
+
+    <string-array name="lista_monografia_autor">
+        <item>Adriano Rodrigues dos Santos Sousa</item>
+        <item>Adryano Teixeira Rocha</item>
+        <item>Agenor Moises dos Santos</item>
+        <item>Allan Kardec Araujo Alves</item>
+        <item>Ana Gabriella Freire Facundes</item>
+        <item>Ananda Rodrigues Marinho</item>
+        <item>Andre Felipe de Carvalho Cantanhede</item>
+        <item>Andre Guedes Machado</item>
+        <item>Andre Pinto Morais</item>
+        <item>Andrey Sales Lopes</item>
+        <item>Anisio Carneiro Correa Neto</item>
+        <item>Antonio Carlos Amaral Ribeiro</item>
+        <item>Caetano Cardoso Siqueira Neto</item>
+        <item>Caio Leonardo Alves Sales</item>
+        <item>Dario Lindoso Everton Costa</item>
+        <item>Éber Beckman Costa</item>
+        <item>Eloi Heleno Assuncao Pestana</item>
+        <item>Fabbio Patrick Miranda Aranha</item>
+        <item>Fabiano Dias Teixeira</item>
+        <item>Felipe Lima da Costa</item>
+        <item>Igor Jose Balata Franco</item>
+        <item>Ithallysson Lima Ferreira</item>
+        <item>Jessica Nogueira da Cruz Costa</item>
+        <item>Joao Pedro Franco de Mello</item>
+        <item>Jose Miguel Serra Neto</item>
+        <item>Kathleen Guimaraes Santana</item>
+        <item>Larissa Feitosa Silva Assuncao</item>
+        <item>Laryssa Guimaraes Serra</item>
+        <item>Leonardo Calheiros Rodrigues</item>
+        <item>Lucas Mathews Bastos Costa</item>
+        <item>Luciano Carneiro Reis</item>
+        <item>Luis Henrique Serra Pinheiro</item>
+        <item>Maikon Glaydson dos Santos Queiroz</item>
+        <item>Mohara Alves de Medeiros</item>
+        <item>Naira Pearce Malaquias</item>
+        <item>Newton Marcalino Costa Sanches Filho</item>
+        <item>Pauline Dulcineia Mesquita Santiago</item>
+        <item>Rafaella Moreira Lima Gondim Resende</item>
+        <item>Raimundo Nonato Rodrigues de Araujo Netto</item>
+        <item>Romeu Queiroz Marques</item>
+        <item>Tiago Raoni Sousa Freire Santos</item>
+        <item>Valdir de Oliveira Junior</item>
+        <item>Vivien Sousa Lima Bezerra</item>
+        <item>Wellington Ribamar Vieira de Sousa</item>
+        <item>Wellington Simoes Mesquita</item>
+    </string-array>
+
+    <string-array name="lista_monografia_titulo">
+        <item>ALTERNATIVAS SUSTENTÁVEIS NA CONSTRUÇÃO CIVIL</item>
+        <item>ALVENARIA RACIONALIZADA COM BLOCO DE CONCRETO</item>
+        <item>ANÁLISE DA CONFIABILIDADE ESTRUTURAL DE VIGA METÁLICA NO AMBIENTE ANSYS</item>
+        <item>ANÁLISE DA NORMA DE DESEMPENHO PARA EDIFICAÇÕES HABITACIONAIS – ABNT NBR 15575, SOB AS ATRIBUIÇÕES DO PROCESSO CONSTRUTIVO ALVENARIA ESTRUTURAL</item>
+        <item>ANÁLISE DAS CONDIÇÕES DE SAÚDE E SEGURANÇA EM CANTEIROS DE OBRA DE SÃO LUÍS - MA</item>
+        <item>ANÁLISE DAS CONDIÇÕES DE SAÚDE E SEGURANÇA NO TRABALHO QUANTO A UTILIZAÇÃO DOS EPIs NOS CANTEIROS DE OBRAS ADMINISTRADOS PELA CONSTRUTORA GUIMARAES LTDA</item>
+        <item>ANÁLISE DAS PATOLOGIAS EM ESTRUTURAS DE CONCRETO ARMADO EM SÃO LUÍS - MA</item>
+        <item>ANÁLISE DAS SOLUÇÕES DE FORMAS DISPONÍVEIS NO MERCADO NACIONAL</item>
+        <item>ANÁLISE DE FISSURAÇÕES EM EDIFICAÇÕES DOS PROJETOS HABITACIONAIS DO PROGRAMA FEDERAL MINHA CASA, MINHA VIDA EM SÃO LUÍS-MA</item>
+        <item>ANÁLISE DO USO DE EQUAÇÃO DE CHUVA IDF NO DIMENSIONA-MENTO DE DRENAGEM RODOVIÁRIA PELO MÉTODO RACIONAL EM TRECHO DA RODOVIA MA-312</item>
+        <item>ANÁLISE E CONTROLE DE SOLOS LATERÍTICOS PARA PAVIMENTAÇÃO DE UM TRECHO DA VIA EXPRESSA NA MALHA RODOVIÁRIA EM SÃO LUÍS-MA</item>
+        <item>APLICAÇÃO DE SIG NA ANÁLISE DA ACESSIBILIDADE NO TRANSPORTE PÚBLICO DE SÃO LUIS</item>
+        <item>AVALIAÇÃO DA GESTÃO DE RESÍDUOS SÓLIDOS DA CONSTRUÇÃO CIVIL EM ALGUMAS EMPRESAS QUE ATUAM EM SÃO LUÍS – MA</item>
+        <item>AVALIAÇÃO DA SUPERFÍCIE DE PAVIMENTOS FLEXÍVEIS ATRAVÉS DA NORMA DNIT 008/2003-PRO</item>
+        <item>BIOENGENHARIA DE SOLOS EM TALUDE ERODIDO: COMPARAÇÃO COM UMA SOLUÇÃO TRADICIONAL.</item>
+        <item>CONTRIBUIÇÃO DO REUSO DA ÁGUA NA CONSTRUÇÃO CIVIL</item>
+        <item>DESENVOLVIMENTO DE UMA APLICAÇÃO COMPUTACIONAL EM AMBIENTE MATLAB PARA SOLUÇÃO DE PÓRTICOS ESPACIAIS, CONSIDERANDO-SE AS DEFORMAÇÕES DEVIDAS À FORÇA CORTANTE</item>
+        <item>DIMENSIONAMENTO DE CONDUTO LIVRE COM SEÇÃO TRAPEZOIDAL DO CANAL PRINCIPAL DA SUB-BACIA DO COHATRAC</item>
+        <item>EFEITOS DE AGENTES AGRESSIVOS MARINHOS EM ESTRUTURAS PORTUÁRIAS DE CONCRETO ARMADO NO BRASIL: ESTUDO DE CASO</item>
+        <item>ELABORAÇÃO DE UM GUIA PARA RECEBIMENTO DE UNIDADES HABITACIONAIS</item>
+        <item>EQUAÇÃO DA CHUVA PARA O MUNICÍPIO DE TUTÓIA</item>
+        <item>ESTUDO COMPARATIVO ENTRE OS MÉTODOS APROXIMADOS DE DETERMINAÇÃO DOS EFEITOS DE 2ª ORDEM EM DIMENSIONAMENTO DE PILARES</item>
+        <item>ESTUDO COMPARATIVO ENTRE PROJETO DE RADIER EM CONCRETO ARMADO E CONCRETO PROTENDIDO, CONSIDERANDO INTERAÇÃO SOLO-ESTRUTURA</item>
+        <item>ESTUDO DA INSTABILIDADE LATERAL EM VIGAS PRÉ-MOLDADAS DE CONCRETO</item>
+        <item>ESTUDO DO REFORÇO DE VIGAS DE CONCRETO ARMADO COM A UTILIZAÇÃO DE CABOS EXTERNOS PROTENDIDOS</item>
+        <item>FORMULAÇÃO DE UM PLANEJAMENTO ESTRATÉGICO PARA UMA EMPRESA DE CONSTRUÇÃO CIVIL, EM SÃO LUÍS – MA, UTILIZANDO A FERRAMENTA BALANCED SCORECARD</item>
+        <item>GESTÃO DE RESÍDUOS SÓLIDOS NA CONSTRUÇÃO CIVIL: Implantação da gestão em uma construtora de Grande Porto em São Luís-MA</item>
+        <item>LOGÍSTICA EM CANTEIRO DE OBRAS VERTICAIS</item>
+        <item>MATERIAIS CERÂMICOS E SUAS APLICAÇÕES NA CONSTRUÇÃO CIVIL: ESTUDO SOBRE A ARGILA, O GESSO E O CIMENTO</item>
+        <item>MOBILIDADE URBANA NA CIDADE DE SÃO LUÍS – MA</item>
+        <item>O EFEITO DA SUBSTITUIÇÃO PARCIAL DO CIMENTO PORTLAND POR RESÍDUO DE BAUXITA NA RESISTÊNCIA MECÂNICA DOS CONCRETOS</item>
+        <item>PATOLOGIAS EM HABITAÇÕES POPULARES: Diagnóstico de residências do Programa Minha Casa Minha Vida</item>
+        <item>PLANEJAMENTO DE RECUPERAÇÃO ESTRUTURAL DAS ESTACAS DE UM PÍER</item>
+        <item>PLANEJAMENTO ESTRATÉGICO DE OPERAÇÕES AEROPORTUÁRIAS: UM ESTUDO DE CASO DO AEROPORTO INTERNACIONAL DE SÃO LUÍS - MARECHAL HUGO DA CUNHA MACHADO</item>
+        <item>PLANEJAMENTO URBANO: MOBILIDADE URBANA EM SÃO LUÍS, UMA MACRO VISÃO DOS PROBLEMAS</item>
+        <item>PROBLEMAS ENVOLVENDO OS MECANISMOS DE INTERAÇÃO SOLO-ESTRUTURA</item>
+        <item>PROJETO DE EDIFÍCIO EM ALVENARIA ESTRUTURAL</item>
+        <item>RELAÇÕES MOMENTO-CURVATURA EM PEÇAS FLEXO-COMPRIMIDAS DE CONCRETO ARMADO</item>
+        <item>RESÍDUOS SÓLIDOS NA ENGENHARIA CIVIL</item>
+        <item>REUTILIZAÇÃO DE ÁGUAS PLUVIAIS EM EDIFÍCIOS MULTIFAMILIARES: ESTUDO DE CASO</item>
+        <item>REUTILIZAÇÃO DE PNEUS INSERVÍVEIS NA CONSTRUÇÃO CIVIL</item>
+        <item>TAXA ARBÓREA PARA MITIGAÇÃO DO STRESS TÉRMICO EM AMBIENTES URBANOS</item>
+        <item>TÍTULO NÃO ENCONTRADO (AUTOR: ROMEU QUEIROZ MARQUEZ)</item>
+        <item>UM ESTUDO SOBRE A CORRELAÇÃO ENTRE OS DEFEITOS GEOMÉTRICOS DA SUPERESTRUTURA DE VIA PERMANENTE E O PROCESSO DE FRATURA DOS TRILHOS: O CASO DA ESTRADA DE FERRO CARAJÁS</item>
+        <item>UTILIZAÇÃO DA MODELAGEM DA INFORMAÇÃO NA CONSTRUÇÃO (BIM) NAS FASES DE PRÉ-CONSTRUÇÃO E CONSTRUÇÃO: OS BENEFÍCIOS PARA O CONSTRUTOR COM O USO DO PLANEJAMENTO 4D</item>
+    </string-array>
+
+    <string-array name="links_monografia">
+        <item>https://drive.google.com/file/d/0Bwkg5xdqqRK9bkJXS3hRSVQ3N0E/view?usp=sharing</item>
+        <item>https://drive.google.com/file/d/0Bwkg5xdqqRK9N1REUjExSGV5U1U/view?usp=sharing</item>
+        <item>https://drive.google.com/file/d/0Bwkg5xdqqRK9T1dYN19sMktya0E/view?usp=sharing</item>
+        <item>https://drive.google.com/file/d/0Bwkg5xdqqRK9b0RaR0VLR3llY1U/view?usp=sharing</item>
+        <item>https://drive.google.com/file/d/0Bwkg5xdqqRK9NDNjUkhjajUyRGM/view?usp=sharing</item>
+        <item>https://drive.google.com/file/d/0Bwkg5xdqqRK9aEhPSmlHYWtELUU/view?usp=sharing</item>
+        <item>https://drive.google.com/file/d/0Bwkg5xdqqRK9dmNyRTdhcWNOV2c/view?usp=sharing</item>
+        <item>https://drive.google.com/file/d/0Bwkg5xdqqRK9b2tRN3NfYk0tb2M/view?usp=sharing</item>
+        <item>https://drive.google.com/file/d/0Bwkg5xdqqRK9c3E2ak5STlphWHM/view?usp=sharing</item>
+        <item>https://drive.google.com/file/d/0Bwkg5xdqqRK9c1lQbTNfZGZNQTQ/view?usp=sharing</item>
+        <item>https://drive.google.com/file/d/0Bwkg5xdqqRK9MGNBR2RoWEFLNDQ/view?usp=sharing</item>
+        <item>https://drive.google.com/file/d/0Bwkg5xdqqRK9OWhqSGxkSVdIRW8/view?usp=sharing</item>
+        <item>https://drive.google.com/file/d/0Bwkg5xdqqRK9YVlzR1c2TkQtcjA/view?usp=sharing</item>
+        <item>https://drive.google.com/file/d/0Bwkg5xdqqRK9R09TRlJSUVJZSVE/view?usp=sharing</item>
+        <item>https://drive.google.com/file/d/0Bwkg5xdqqRK9MGdxeXlWVWNuVnM/view?usp=sharing</item>
+        <item>https://drive.google.com/file/d/0Bwkg5xdqqRK9UjNtblFLSTFubjg/view?usp=sharing</item>
+        <item>https://drive.google.com/file/d/0Bwkg5xdqqRK9UHo5LUpLY2pJVmc/view?usp=sharing</item>
+        <item>https://drive.google.com/file/d/0Bwkg5xdqqRK9VEdpY3lFLUU4MEk/view?usp=sharing</item>
+        <item>https://drive.google.com/file/d/0Bwkg5xdqqRK9eE1pZ2M0YVRSamM/view?usp=sharing</item>
+        <item>https://drive.google.com/file/d/0Bwkg5xdqqRK9djRqSEtacE0yTjA/view?usp=sharing</item>
+        <item>https://drive.google.com/file/d/0Bwkg5xdqqRK9LURBaWRGZS1CcmM/view?usp=sharing</item>
+        <item>https://drive.google.com/file/d/0Bwkg5xdqqRK9N0RCejdYcDg3SDg/view?usp=sharing</item>
+        <item>https://drive.google.com/file/d/0Bwkg5xdqqRK9c2h1TFQtSnBuQTQ/view?usp=sharing</item>
+        <item>https://drive.google.com/file/d/0Bwkg5xdqqRK9SUpCdGQ3Zmx4TlE/view?usp=sharing</item>
+        <item>https://drive.google.com/file/d/0Bwkg5xdqqRK9SUl5dFFBLWtJUjg/view?usp=sharing</item>
+        <item>https://drive.google.com/file/d/0Bwkg5xdqqRK9ZzBLTVNGVkJ4OE0/view?usp=sharing</item>
+        <item>https://drive.google.com/file/d/0Bwkg5xdqqRK9cDdjZ1dUVHF5eXc/view?usp=sharing</item>
+        <item>https://drive.google.com/file/d/0Bwkg5xdqqRK9Y3V5aU5XLUxMY1E/view?usp=sharing</item>
+        <item>https://drive.google.com/file/d/0Bwkg5xdqqRK9M0ZIZjNlNm0yX28/view?usp=sharing</item>
+        <item>https://drive.google.com/file/d/0Bwkg5xdqqRK9bVNvUE4yeGRBNEk/view?usp=sharing</item>
+        <item>https://drive.google.com/file/d/0Bwkg5xdqqRK9bHFXNGgyTXZoVWc/view?usp=sharing</item>
+        <item>https://drive.google.com/file/d/0Bwkg5xdqqRK9N2t2OGlmbFdBNm8/view?usp=sharing</item>
+        <item>https://drive.google.com/file/d/0Bwkg5xdqqRK9d1JfRVRFR3lXTnc/view?usp=sharing</item>
+        <item>https://drive.google.com/file/d/0Bwkg5xdqqRK9d18yM3dIV0Z6Zmc/view?usp=sharing</item>
+        <item>https://drive.google.com/file/d/0Bwkg5xdqqRK9OWUxeG1pSlFPeHc/view?usp=sharing</item>
+        <item>https://drive.google.com/file/d/0Bwkg5xdqqRK9NVh1NW1OOVVyaUE/view?usp=sharing</item>
+        <item>https://drive.google.com/file/d/0Bwkg5xdqqRK9RWluQ201QW84aEU/view?usp=sharing</item>
+        <item>https://drive.google.com/file/d/0Bwkg5xdqqRK9Q2x2MkItMWdLV1E/view?usp=sharing</item>
+        <item>https://drive.google.com/file/d/0Bwkg5xdqqRK9NUMtQVk4SklnN28/view?usp=sharing</item>
+        <item>https://drive.google.com/file/d/0Bwkg5xdqqRK9a2VjLWw0OVZzSjQ/view?usp=sharing</item>
+        <item>https://drive.google.com/file/d/0Bwkg5xdqqRK9Yk9ua2pvRFJaalU/view?usp=sharing</item>
+        <item>https://drive.google.com/file/d/0Bwkg5xdqqRK9RVBuLWRBLVdJOGs/view?usp=sharing</item>
+        <item>https://drive.google.com/file/d/0Bwkg5xdqqRK9TW1CVzRNa091dTg/view?usp=sharing</item>
+        <item>https://drive.google.com/file/d/0Bwkg5xdqqRK9LUNlOTRENm9aWE0/view?usp=sharing</item>
+        <item>https://drive.google.com/file/d/0Bwkg5xdqqRK9SE1KRzBaQUZZY0U/view?usp=sharing</item>
+    </string-array>
+
+    <string-array name="pp_sumario">
+        <item>Reitoria, Direção e Coordenação</item>
+        <item>Com. de Elaboração do Projeto de Implantação</item>
+        <item>Com. de Reestruturação e Atualização</item>
+        <item>Apresentação</item>
+        <item>Contexto Sócio Econômico e Educacional</item>
+        <item>Justificativa</item>
+        <item>Objetivos</item>
+        <item>Perfil Profissional</item>
+        <item>Competências Profissionais do egresso do curso</item>
+        <item>Número de vagas, formas de ingresso e turnos de funcionamento do curso</item>
+        <item>Organização Curricular</item>
+        <item>Somatório das Cargas Horárias dos Núcleos</item>
+        <item>Metodologia de Ensino</item>
+        <item>Sistemas de Avaliação</item>
+        <item>Estágio Supervisionado</item>
+        <item>Pesquisa e Iniciação Científica</item>
+        <item>Monitoria</item>
+        <item>O Trabalho Monográfico de Conclusão de Curso</item>
+        <item>Atividades Complementares</item>
+        <item>Programas de Apoio</item>
+        <item>Eletivas</item>
+        <item>Instalações Físicas</item>
+        <item>Corpo Docente</item>
+        <item>Núcleo Docente Estruturante</item>
+        <item>Corpo De Apoio</item>
+        <item>Referências Bibliográficas para Elaboração do Projeto Pedagógico do Curso de Bacharelado em  Engenharia Civil</item>
+    </string-array>
+</resources>
